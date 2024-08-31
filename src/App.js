@@ -57,15 +57,10 @@ function App({ complist, update_list }) {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
-              MIT Scratch Clone
+              Scratch Clone
             </Typography>
             <Button color="inherit">
-              <GitHubIcon
-                onClick={() =>
-                  (window.location.href =
-                    "https://github.com/peeyush14goyal/MIT-Scratch-Clone")
-                }
-              />
+              
             </Button>
           </Toolbar>
         </AppBar>
